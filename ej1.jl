@@ -5,6 +5,7 @@ using Markdown
 using InteractiveUtils
 # ╔═╡ 5b2ee40e-a2b8-11ea-0fef-c35fe6918860
 md"""
+![setup of the tower of a hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg)
 x = collect(0:0.1:25)
 x2 = collect(0:0.1:40)
 x3 = collect(0:0.1:20)
