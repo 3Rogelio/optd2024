@@ -3,7 +3,8 @@
 
 using Markdown
 using InteractiveUtils
-
+# ╔═╡ 5b2ee40e-a2b8-11ea-0fef-c35fe6918860
+md"""
 x = collect(0:0.1:25)
 x2 = collect(0:0.1:40)
 x3 = collect(0:0.1:20)
@@ -46,3 +47,5 @@ plot!(x3,obj.(x3,2400),label="c=2400",color="red")
 quiver!(x6,obj.(x6,2400),quiver=(u,v), color="red")
 plot!(x5,obj.(x5,3200),label="c=3200",color="black")
 quiver!(x6,obj.(x6,3200),quiver=(u,v),color="black")
+# ╔═╡ Cell order:
+# ╟─5b2ee40e-a2b8-11ea-0fef-c35fe6918860
