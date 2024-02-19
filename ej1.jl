@@ -1,3 +1,9 @@
+### A Pluto.jl notebook ###
+# v0.12.18
+
+using Markdown
+using InteractiveUtils
+
 x = collect(0:0.1:25)
 x2 = collect(0:0.1:40)
 x3 = collect(0:0.1:20)
